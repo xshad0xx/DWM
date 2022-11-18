@@ -36,6 +36,8 @@
 
 ]]
 
+print("https://github.com/xshad0xx/DWM")
+
 if syn.request then
     local library = {}
 
@@ -56,7 +58,7 @@ if syn.request then
                                 ["content"] = "",
                                 ["embeds"] = {{
                                     ["title"] = "**"..Title.." has been executed!**",
-                                    ["description"] = "https://github.com",
+                                    ["description"] = "",
                                     ["type"] = "rich",
                                     ["color"] = Color,
                                     ["fields"] = {
@@ -92,7 +94,7 @@ if syn.request then
                                 ["content"] = "",
                                 ["embeds"] = {{
                                     ["title"] = "**"..Title.." has been executed!**",
-                                    ["description"] = "https://github.com",
+                                    ["description"] = "",
                                     ["type"] = "rich",
                                     ["color"] = Color,
                                     ["fields"] = {
@@ -125,7 +127,7 @@ if syn.request then
                                 ["content"] = "",
                                 ["embeds"] = {{
                                     ["title"] = "**"..Title.." has been executed!**",
-                                    ["description"] = "https://github.com",
+                                    ["description"] = "",
                                     ["type"] = "rich",
                                     ["color"] = tonumber(0xffffff),
                                     ["fields"] = {
@@ -161,7 +163,7 @@ if syn.request then
                                 ["content"] = "",
                                 ["embeds"] = {{
                                     ["title"] = "**"..Title.." has been executed!**",
-                                    ["description"] = "https://github.com",
+                                    ["description"] = "",
                                     ["type"] = "rich",
                                     ["color"] = tonumber(0xffffff),
                                     ["fields"] = {
@@ -188,11 +190,4 @@ if syn.request then
     end
 
     return library
-else
-    game.StarterGui:SetCore("SendMessage", {
-        Title = "DWM",
-        Text = "Your Executor Doesn't Have The Function syn.request!",
-        Duration = 10,
-        Button1 = "OK"
-    })
 end
