@@ -3,7 +3,7 @@
 ## What is DWM?
 
 #### DWM is short for "Discord Webhook Message".
-#### It Uses the ``syn.request`` function from the Script Executor Synapse X to Make Discord Webhooks Send messages.
+#### It Uses the ``syn.request`` function from the Script Executor Synapse X to Make Discord Webhooks Send messages. If the function doesn't exist it notifies the player.
 
 ## What you can do and what you can't (License)
 
